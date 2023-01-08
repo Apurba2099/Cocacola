@@ -1,114 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- source swiperjs -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Coca-Cola,by apurba dutta</title>
-  </head>
 
-  <body>
-    <section id="sect">
-      <div class="circle"></div>
-      <header>
-        <div class="toggle" onclick="toggleMenu()"></div>
-        <a href="#"> <img src="logo.png" class="logo" /></a>
-        <ul class="navigation">
-          <li class="list"><a href="#">Home</a></li>
-          <li class="list"><a href="#">Menu</a></li>
-          <li class="list"><a href="#">What's new</a></li>
-          <li class="list"><a href="#">Contact us</a></li>
-        </ul>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coca-Cola,by apurba dutta</title>
+  <link rel="icon" type="image/png" siges="32x32" href="./icon.png">
+  <!-- source swiperjs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      
-      <div class="content">
-        <div class="textBox">
-          <h2>Feel the test</h2>
-          <p>
-            "Our company's purpose is to refresh the world and make a
-            difference. Our portfolio of brands includes Coca-Cola, Sprite,
-            Fanta and other sparkling soft drinks. Our hydration, sports, coffee
-            and tea brands include Dasani, smartwater, vitaminwater, Topo Chico,
-            Powerade, Costa, Georgia, Gold Peak, Ayataka, and BodyArmor. Our
-            nutrition, juice, dairy and plant-based beverage brands include
-            Minute Maid, Simply, innocent, Del Valle, fairlife and AdeS." <br />
-            <em><strong>- Apurba Dutta . . .</strong></em>
-          </p>
-          <a href="#">Learn more</a>
-        </div>
+<body>
+  <section id="sect">
+    <div class="circle"></div>
+    <header>
+      <div class="toggle" onclick="toggleMenu()"></div>
+      <a href="#"> <img src="logo.png" class="logo" /></a>
+      <ul class="navigation">
+        <li class="list"><a href="#">Home</a></li>
+        <li class="list"><a href="#">Menu</a></li>
+        <li class="list"><a href="#">What's new</a></li>
+        <li class="list"><a href="#">Contact us</a></li>
+      </ul>
+    </header>
 
-        <div class="imgBox">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="cocacola1.png" /></div>
-              <div class="swiper-slide"><img src="cocacola2.png" /></div>
-              <div class="swiper-slide"><img src="cocacola3.png" /></div>
-              <div class="swiper-slide"><img src="cocacola4.png" /></div>
-              <div class="swiper-slide"><img src="cocacola5.png" /></div>
-              <div class="swiper-slide"><img src="cocacola6.png" /></div>
-            </div>
+
+    <div class="content">
+      <div class="textBox">
+        <h2>Feel the test</h2>
+        <p>
+          "Our company's purpose is to refresh the world and make a
+          difference. Our portfolio of brands includes Coca-Cola, Sprite,
+          Fanta and other sparkling soft drinks. Our hydration, sports, coffee
+          and tea brands include Dasani, smartwater, vitaminwater, Topo Chico,
+          Powerade, Costa, Georgia, Gold Peak, Ayataka, and BodyArmor. Our
+          nutrition, juice, dairy and plant-based beverage brands include
+          Minute Maid, Simply, innocent, Del Valle, fairlife and AdeS." <br />
+          <em><strong>- Apurba Dutta . . .</strong></em>
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div class="imgBox">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="cocacola1.png" /></div>
+            <div class="swiper-slide"><img src="cocacola2.png" /></div>
+            <div class="swiper-slide"><img src="cocacola3.png" /></div>
+            <div class="swiper-slide"><img src="cocacola4.png" /></div>
+            <div class="swiper-slide"><img src="cocacola5.png" /></div>
+            <div class="swiper-slide"><img src="cocacola6.png" /></div>
           </div>
         </div>
       </div>
-      <ul class="sci">
-        <li>
-          <a href="https://www.facebook.com/profile.php?id=100084888861255"
-            ><img src="facebook.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/apurba2099/"
-            ><img src="instagram.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://github.com/Apurba2099"
-            ><img src="github.png" alt="" height="40px;" width="40px;"
-          /></a>
-        </li>
-      </ul>
-      <!-- //"i used js frame work for my compability" apurba// -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          effect: "coverflow",
-          grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: "auto",
-          coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 200,
-            modifier: 1,
-            slideShadows: true
-          },
-          pagination: {
-            el: ".swiper-pagination"
-          },
-          loop: true
-        });
+    </div>
+    <ul class="sci">
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=100084888861255"><img src="facebook.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/apurba2099/"><img src="instagram.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="https://github.com/Apurba2099"><img src="github.png" alt="" height="40px;" width="40px;" /></a>
+      </li>
+    </ul>
+    <!-- //"i used js frame work for my compability" apurba// -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true
+        },
+        pagination: {
+          el: ".swiper-pagination"
+        },
+        loop: true
+      });
 
-        function toggleMenu() {
-          const menuToggle = document.querySelector(".toggle");
-          const navigation = document.querySelector(".navigation");
-          menuToggle.classList.toggle("active");
-          navigation.classList.toggle("active");
-        }
-      </script>
-      <!-- //end -->
-    </section>
-    <footer>
-      <div class="center">
-        Copyright &copy; www.cocacola.com. All rights reserved | develop by
-        apurbadutta| thankyou..visit again...
-      </div>
-    </footer>
-  </body>
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".toggle");
+        const navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+    <!-- //end -->
+  </section>
+  <footer>
+    <div class="center">
+      Copyright &copy; www.cocacola.com. All rights reserved | develop by
+      apurbadutta| thankyou..visit again...
+    </div>
+  </footer>
+</body>
+
 </html>
